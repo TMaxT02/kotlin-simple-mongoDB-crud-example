@@ -9,7 +9,7 @@ class CalculatorTest {
     @BeforeEach
     fun setup(): Unit = runBlocking {
         val db = async { RestaurantCrud.setupConnection() }.await()
-        if (db == null) throw RuntimeException("MongoDB-Verbindung fehlgeschlagen")
+        if (db == null) throw RuntimeException("MongoDB-Connection failed")
         RestaurantCrud.clear()
     }
 
