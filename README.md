@@ -10,4 +10,4 @@ This is a very simple Kotlin project that demonstrates how to connect and intera
 You need to go to https://cloud.mongodb.com, create a cluster, and set a username with its password. The connection string will then be generated on the website. 
 You just need to enter the username and password into the string, and then insert it into the connectString variable.
 
-For more detailed official documentation (guide), check out the MongoDB Kotlin Driver Getting Started Guide.
+For more detailed official documentation ([guide](https://www.mongodb.com/developer/products/mongodb/getting-started-kotlin-driver/)), check out the MongoDB Kotlin Driver Getting Started Guide.
